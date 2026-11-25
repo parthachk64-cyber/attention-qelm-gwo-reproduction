@@ -1,0 +1,184 @@
+{
+ "source": {
+  "doi": "10.1007/s44163-026-01704-3",
+  "article": "Discover Artificial Intelligence 6:1258 (2026)",
+  "licence": "CC BY-NC-ND 4.0 (transcribed numbers only)",
+  "table": "Table 1",
+  "page": 8
+ },
+ "label": "published_reference",
+ "columns": [
+  "class",
+  "attack_category",
+  "protocol_layer",
+  "total_records",
+  "pct_of_dataset",
+  "train_80",
+  "test_20",
+  "label"
+ ],
+ "rows": [
+  [
+   "Normal",
+   "Benign",
+   "Mixed",
+   1367959,
+   71.65,
+   1094367,
+   273592,
+   0
+  ],
+  [
+   "DDoS_UDP",
+   "Volumetric Flood",
+   "UDP",
+   120532,
+   5.31,
+   96426,
+   24106,
+   1
+  ],
+  [
+   "DDoS_ICMP",
+   "Volumetric Flood",
+   "ICMP",
+   67391,
+   3.53,
+   53913,
+   13476,
+   1
+  ],
+  [
+   "SQL_Injection",
+   "Injection Attack",
+   "HTTP",
+   50421,
+   2.64,
+   40337,
+   10084,
+   1
+  ],
+  [
+   "DDoS_TCP",
+   "Volumetric Flood",
+   "TCP",
+   49651,
+   2.6,
+   39721,
+   9930,
+   1
+  ],
+  [
+   "DDos_HTTP",
+   "Volumetric Flood",
+   "HTTP",
+   48693,
+   2.55,
+   38954,
+   9739,
+   null
+  ],
+  [
+   "Password",
+   "Credential Attack",
+   "MQTT",
+   38217,
+   2.0,
+   30574,
+   7643,
+   1
+  ],
+  [
+   "Vulnerability_Scanner",
+   "Reconnaissance",
+   "TCP",
+   31482,
+   1.65,
+   25186,
+   6296,
+   1
+  ],
+  [
+   "Port_Scanning",
+   "Reconnaissance",
+   "TCP",
+   28904,
+   1.51,
+   23123,
+   5781,
+   1
+  ],
+  [
+   "XSS",
+   "Web Attack",
+   "HTTP",
+   22734,
+   1.19,
+   18187,
+   4547,
+   1
+  ],
+  [
+   "Uploading",
+   "Malware",
+   "HTTP",
+   19856,
+   1.04,
+   15885,
+   3971,
+   1
+  ],
+  [
+   "Backdoor",
+   "Persistent Access",
+   "TCP",
+   17423,
+   0.91,
+   13938,
+   3485,
+   1
+  ],
+  [
+   "OS_Fingerprinting",
+   "Reconnaissance",
+   "ICMP",
+   14381,
+   0.75,
+   11505,
+   2876,
+   1
+  ],
+  [
+   "Ransomware",
+   "Extortion Malware",
+   "TCP",
+   11293,
+   0.59,
+   9034,
+   2259,
+   1
+  ],
+  [
+   "MITM",
+   "Interception",
+   "ARP",
+   1734,
+   0.09,
+   1387,
+   347,
+   1
+  ]
+ ],
+ "notes": [
+  "printed total row: 15 classes, 1,909,671 total, 1,527,736 train, 381,935 test",
+  "the 'Label' cell of the DDos_HTTP row is blank in the printed table",
+  "the Port_Scanning total is printed with a stray leading backtick: `28,904",
+  "class name is printed DDos_HTTP here and DDoS_HTTP elsewhere"
+ ],
+ "printed_total": {
+  "total_records": 1909671,
+  "train": 1527736,
+  "test": 381935,
+  "classes": 15
+ }
+}

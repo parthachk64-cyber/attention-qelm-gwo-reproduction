@@ -1,0 +1,8 @@
+# Full GWO search per task: 20 wolves, <= 50 iterations, five-fold macro-F1, stop after 10 stagnant iterations at tol 1e-4.
+# Up to N(T+1) = 1,020 candidate evaluations x 5 fold fits each. CPU cost is very high: run `iiot-qelm estimate` first.
+name: gwo_full
+task: multiclass
+seeds: [7]
+train: {lr: 0.001, batch_size: 32, epochs: 100, patience: 15, val_fraction: 0.10, device: cpu}
+loss: {kind: focal, gamma: 2.0, alpha: 0.25, alpha_mode: uniform, use_class_weights: true}
+gwo: {n_wolves: 20, max_iter: 50, patience: 10, tol: 0.0001, n_folds: 5, seed: 0}

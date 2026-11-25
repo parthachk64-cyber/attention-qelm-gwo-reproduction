@@ -1,0 +1,81 @@
+{
+ "source": {
+  "doi": "10.1007/s44163-026-01704-3",
+  "article": "Discover Artificial Intelligence 6:1258 (2026)",
+  "licence": "CC BY-NC-ND 4.0 (transcribed numbers only)",
+  "table": "Table 10",
+  "page": 24
+ },
+ "label": "published_reference",
+ "columns": [
+  "comparison_proposed_vs",
+  "mean_diff_macro_f1",
+  "holm_corrected_p",
+  "cohens_d"
+ ],
+ "rows": [
+  [
+   "DenseNet",
+   0.0064,
+   0.000145,
+   4.99
+  ],
+  [
+   "BiLSTM",
+   0.0079,
+   0.000211,
+   4.99
+  ],
+  [
+   "GRU",
+   0.0105,
+   0.000211,
+   5.92
+  ],
+  [
+   "LSTM",
+   0.0129,
+   0.000201,
+   6.87
+  ],
+  [
+   "CNN-1D",
+   0.016,
+   0.000201,
+   7.73
+  ],
+  [
+   "XGBoost",
+   0.0184,
+   0.000145,
+   8.9
+  ],
+  [
+   "Random Forest",
+   0.0252,
+   8.7e-05,
+   11.24
+  ],
+  [
+   "Decision Tree",
+   0.046,
+   2.9e-05,
+   16.84
+  ],
+  [
+   "Logistic Regression",
+   0.2441,
+   2.27e-07,
+   65.46
+  ],
+  [
+   "Naive Bayes",
+   0.2716,
+   2.27e-07,
+   66.46
+  ]
+ ],
+ "notes": [
+  "the test variant and the effect-size denominator are not stated in the article"
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "source": {
+  "doi": "10.1007/s44163-026-01704-3",
+  "article": "Discover Artificial Intelligence 6:1258 (2026)",
+  "licence": "CC BY-NC-ND 4.0 (transcribed numbers only)",
+  "table": "Table 8",
+  "page": 20
+ },
+ "label": "published_reference",
+ "columns": [
+  "class",
+  "xgboost_f1",
+  "densenet_f1",
+  "bilstm_f1",
+  "proposed_f1",
+  "diff_vs_best_baseline_pp"
+ ],
+ "rows": [
+  [
+   "Normal",
+   0.9891,
+   0.9934,
+   0.9921,
+   0.9967,
+   0.33
+  ],
+  [
+   "DDoS_UDP",
+   0.9934,
+   0.9961,
+   0.9948,
+   0.9978,
+   0.17
+  ],
+  [
+   "DDoS_ICMP",
+   0.9912,
+   0.9943,
+   0.9931,
+   0.9971,
+   0.28
+  ],
+  [
+   "SQL_Injection",
+   0.9887,
+   0.9921,
+   0.9908,
+   0.9958,
+   0.37
+  ],
+  [
+   "DDoS_TCP",
+   0.9871,
+   0.9921,
+   0.9896,
+   0.9949,
+   0.28
+  ],
+  [
+   "DDoS_HTTP",
+   0.9756,
+   0.9914,
+   0.9812,
+   0.9891,
+   -0.23
+  ],
+  [
+   "Password",
+   0.9712,
+   0.9834,
+   0.9774,
+   0.9867,
+   0.33
+  ],
+  [
+   "Vulnerability_Scanner",
+   0.9681,
+   0.9798,
+   0.9741,
+   0.9843,
+   0.45
+  ],
+  [
+   "Port_Scanning",
+   0.9643,
+   0.9764,
+   0.9712,
+   0.9824,
+   0.6
+  ],
+  [
+   "XSS",
+   0.9534,
+   0.9731,
+   0.9661,
+   0.9798,
+   0.67
+  ],
+  [
+   "Uploading",
+   0.9489,
+   0.9687,
+   0.9618,
+   0.9762,
+   0.75
+  ],
+  [
+   "Backdoor",
+   0.9412,
+   0.9641,
+   0.9554,
+   0.9714,
+   0.73
+  ],
+  [
+   "OS_Fingerprinting",
+   0.9287,
+   0.9587,
+   0.9461,
+   0.9673,
+   0.86
+  ],
+  [
+   "Ransomware",
+   0.9134,
+   0.9478,
+   0.9341,
+   0.9612,
+   1.34
+  ],
+  [
+   "MITM",
+   0.8723,
+   0.8764,
+   0.8698,
+   0.9421,
+   6.57
+  ]
+ ],
+ "notes": [
+  "only three comparators (XGBoost, DenseNet, BiLSTM) are printed; the other seven baselines have no per-class values in the article"
+ ]
+}

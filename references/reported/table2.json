@@ -1,0 +1,148 @@
+{
+ "source": {
+  "doi": "10.1007/s44163-026-01704-3",
+  "article": "Discover Artificial Intelligence 6:1258 (2026)",
+  "licence": "CC BY-NC-ND 4.0 (transcribed numbers only)",
+  "table": "Table 2",
+  "page": 8
+ },
+ "label": "published_reference",
+ "columns": [
+  "class",
+  "frequency_tier",
+  "records",
+  "pct_of_total",
+  "pct_of_attack_only",
+  "imbalance_level"
+ ],
+ "rows": [
+  [
+   "Normal",
+   "Dominant",
+   1367959,
+   71.65,
+   null,
+   "Severely Dominant"
+  ],
+  [
+   "DDoS_UDP",
+   "Very High",
+   120532,
+   6.31,
+   22.26,
+   "High"
+  ],
+  [
+   "DDoS_ICMP",
+   "High",
+   67391,
+   3.53,
+   12.44,
+   "Moderate-High"
+  ],
+  [
+   "SQL_Injection",
+   "Moderate",
+   50421,
+   2.64,
+   9.31,
+   "Moderate"
+  ],
+  [
+   "DDoS_TCP",
+   "Moderate",
+   49651,
+   2.6,
+   9.17,
+   "Moderate"
+  ],
+  [
+   "DDoS_HTTP",
+   "Moderate",
+   48693,
+   2.55,
+   8.99,
+   "Moderate"
+  ],
+  [
+   "Password",
+   "Moderate",
+   38217,
+   2.0,
+   7.06,
+   "Moderate"
+  ],
+  [
+   "Vulnerability_Scanner",
+   "Low",
+   31482,
+   1.65,
+   5.81,
+   "Minor"
+  ],
+  [
+   "Port_Scanning",
+   "Low",
+   28904,
+   1.51,
+   5.34,
+   "Minor"
+  ],
+  [
+   "XSS",
+   "Low",
+   22734,
+   1.19,
+   4.2,
+   "Minor"
+  ],
+  [
+   "Uploading",
+   "Low",
+   19856,
+   1.04,
+   3.67,
+   "Minor"
+  ],
+  [
+   "Backdoor",
+   "Very Low",
+   17423,
+   0.91,
+   3.22,
+   "Rare"
+  ],
+  [
+   "OS_Fingerprinting",
+   "Very Low",
+   14381,
+   0.75,
+   2.66,
+   "Rare"
+  ],
+  [
+   "Ransomware",
+   "Very Low",
+   11293,
+   0.59,
+   2.09,
+   "Rare"
+  ],
+  [
+   "MITM",
+   "Extremely Low",
+   1734,
+   0.09,
+   0.32,
+   "Extremely Rare"
+  ]
+ ],
+ "notes": [
+  "DDoS_UDP is printed 5.31% in Table 1 and 6.31% in Table 2",
+  "printed attack total: 541,712 records, 28.35% of the dataset"
+ ],
+ "printed_total": {
+  "attack_total": 541712,
+  "attack_pct": 28.35
+ }
+}

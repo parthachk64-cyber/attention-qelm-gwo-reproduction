@@ -1,0 +1,61 @@
+{
+ "source": {
+  "doi": "10.1007/s44163-026-01704-3",
+  "article": "Discover Artificial Intelligence 6:1258 (2026)",
+  "licence": "CC BY-NC-ND 4.0 (transcribed numbers only)",
+  "table": "Table 3",
+  "page": 14
+ },
+ "label": "published_reference",
+ "columns": [
+  "hyperparameter",
+  "symbol",
+  "domain",
+  "type"
+ ],
+ "rows": [
+  [
+   "Hidden layers",
+   "L",
+   "[1, 5]",
+   "Integer"
+  ],
+  [
+   "Neurons per layer",
+   "n_h",
+   "[64, 1024]",
+   "Integer"
+  ],
+  [
+   "Activation function",
+   "f",
+   "{sigmoid, tanh, ReLU, GELU}",
+   "Categorical"
+  ],
+  [
+   "L1 regularization",
+   "lambda1",
+   "[1e-6, 1e-1]",
+   "Continuous (log scale)"
+  ],
+  [
+   "L2 regularization",
+   "lambda2",
+   "[1e-6, 1e-1]",
+   "Continuous (log scale)"
+  ],
+  [
+   "Quantum rotation angle",
+   "theta",
+   "[0, 2 pi]",
+   "Continuous"
+  ],
+  [
+   "Density parameter",
+   "rho",
+   "[0, 1]",
+   "Continuous"
+  ]
+ ],
+ "notes": []
+}

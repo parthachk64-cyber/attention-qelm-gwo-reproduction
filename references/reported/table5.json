@@ -1,0 +1,109 @@
+{
+ "source": {
+  "doi": "10.1007/s44163-026-01704-3",
+  "article": "Discover Artificial Intelligence 6:1258 (2026)",
+  "licence": "CC BY-NC-ND 4.0 (transcribed numbers only)",
+  "table": "Table 5",
+  "page": 17
+ },
+ "label": "published_reference",
+ "columns": [
+  "setting",
+  "value"
+ ],
+ "rows": [
+  [
+   "Encoder model dimension d_m",
+   "128"
+  ],
+  [
+   "Bottleneck dimension d_b",
+   "64"
+  ],
+  [
+   "Attention heads h",
+   "8"
+  ],
+  [
+   "Key dimension d_k",
+   "32"
+  ],
+  [
+   "Encoder dropout",
+   "0.1"
+  ],
+  [
+   "QELM hidden layers L",
+   "3"
+  ],
+  [
+   "QELM neurons per layer n_h",
+   "512"
+  ],
+  [
+   "Activation",
+   "GELU"
+  ],
+  [
+   "lambda1, lambda2",
+   "3.2e-4, 1.7e-3"
+  ],
+  [
+   "theta",
+   "1.84 rad"
+  ],
+  [
+   "rho",
+   "0.63"
+  ],
+  [
+   "Phase 1 optimizer",
+   "Adam, lr=1e-3, beta1=0.9, beta2=0.999"
+  ],
+  [
+   "Phase 2 solver",
+   "Regularized Moore-Penrose pseudoinverse"
+  ],
+  [
+   "Loss",
+   "Focal (gamma=2, alpha=0.25) + inverse-frequency class weights"
+  ],
+  [
+   "Batch size",
+   "32"
+  ],
+  [
+   "Epochs",
+   "100; early-stopping patience=15"
+  ],
+  [
+   "GWO population N",
+   "20"
+  ],
+  [
+   "GWO budget T_max",
+   "50; converged at 38 (multi-class) and 31 (binary)"
+  ],
+  [
+   "GWO fitness",
+   "Five-fold CV macro-F1 on the training partition"
+  ],
+  [
+   "Hardware",
+   "NVIDIA RTX 3080 (10 GB), Intel i7-10700, 32 GB RAM"
+  ],
+  [
+   "Framework",
+   "Python 3.9, TensorFlow 2.11, scikit-learn 1.2, NumPy 1.24, pandas 1.5.3"
+  ],
+  [
+   "Random seeds",
+   "{7, 13, 21, 42, 99}"
+  ],
+  [
+   "Code availability",
+   "scripts will be released upon acceptance (Data availability section later names the upstream GitHub repository)"
+  ]
+ ],
+ "notes": []
+}

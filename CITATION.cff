@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below (preferred). This software has its own metadata at the top level."
+title: "iiot-qelm: companion implementation of Attention-QELM-GWO for rare-attack detection in IIoT networks"
+type: software
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/parthachk64-cyber/attention-qelm-gwo-reproduction"
+abstract: >-
+  Independently written Python implementation of the Attention-guided quantum-inspired extreme learning machine
+  with grey wolf optimization, with data validation, ten baselines, seven ablations, fold-safe GWO tuning, a
+  recomputable evaluation pipeline and a data-independent audit of the published article. Not the authors' code.
+authors:
+  - family-names: Chakraborty
+    given-names: Partha
+    alias: parthachk64-cyber
+references:
+  - type: software
+    title: "Attention-QELM-GWO-IIoT-IDS (authors' repository)"
+    url: "https://github.com/drmohammedadnan110-ai/Attention-QELM-GWO-IIoT-IDS"
+    notes: "Examined at commit fc486ac5b7cadf17b0b961d68016beef5cc9376f, not copied. See docs/UPSTREAM.md."
+  - type: data
+    title: "Edge-IIoTset: A New Comprehensive Realistic Cyber Security Dataset of IoT and IIoT Applications: Centralized and Federated Learning"
+    authors:
+      - { family-names: Ferrag, given-names: Mohamed Amine }
+      - { family-names: Friha, given-names: Othmane }
+      - { family-names: Hamouda, given-names: Djallel }
+      - { family-names: Maglaras, given-names: Leandros }
+      - { family-names: Janicke, given-names: Helge }
+    publisher: { name: IEEE Dataport }
+    year: 2022
+    doi: "10.21227/mbc1-1h68"
+preferred-citation:
+  type: article
+  title: "Attention-guided quantum-inspired extreme learning machine with grey wolf optimization for rare-attack detection in IIoT networks"
+  authors:
+    - { family-names: Shahiduzzaman, given-names: Md }
+    - { family-names: Sourav, given-names: Md Sultanul Arefin }
+    - { family-names: Kabtia, given-names: Maria }
+    - { family-names: Shammah, given-names: Ramisa Samin }
+    - { family-names: Islam, given-names: Md Azharul }
+    - { family-names: Chakraborty, given-names: Partha }
+    - { family-names: Rahman, given-names: MD Mizanur }
+    - { family-names: Islam, given-names: Mazharul }
+    - { family-names: Tonoy, given-names: Rahat Bin Aziz }
+    - { family-names: Adnan, given-names: Mohammed }
+  journal: "Discover Artificial Intelligence"
+  volume: 6
+  number: "1258"
+  year: 2026
+  doi: "10.1007/s44163-026-01704-3"

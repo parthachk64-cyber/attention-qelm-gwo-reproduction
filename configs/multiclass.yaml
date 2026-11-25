@@ -1,0 +1,8 @@
+# 15-class task, published fixed hyperparameters (paper Table 5). Full-scale: needs the prepared Edge-IIoTset arrays.
+name: multiclass
+task: multiclass
+seeds: [7, 13, 21, 42, 99]
+train: {lr: 0.001, batch_size: 32, epochs: 100, patience: 15, val_fraction: 0.10, device: cpu}
+loss: {kind: focal, gamma: 2.0, alpha: 0.25, alpha_mode: uniform, use_class_weights: true}
+qelm: {n_layers: 3, width: 512, activation: gelu, lambda1: 0.00032, lambda2: 0.0017, theta: 1.84, rho: 0.63}
+notes: "Fixed (published) QELM hyperparameters. The GWO-selected values are the article's; this repository has not reproduced the search."

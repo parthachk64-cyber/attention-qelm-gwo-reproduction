@@ -1,0 +1,112 @@
+{
+ "source": {
+  "doi": "10.1007/s44163-026-01704-3",
+  "article": "Discover Artificial Intelligence 6:1258 (2026)",
+  "licence": "CC BY-NC-ND 4.0 (transcribed numbers only)",
+  "table": "Table 11",
+  "page": 26
+ },
+ "label": "published_reference",
+ "columns": [
+  "variant",
+  "accuracy",
+  "macro_p",
+  "macro_r",
+  "macro_f1",
+  "mitm_f1",
+  "ransomware_f1",
+  "os_fingerprinting_f1",
+  "delta_macro_f1"
+ ],
+ "rows": [
+  [
+   "Full proposed",
+   0.9894,
+   0.9871,
+   0.9848,
+   0.9859,
+   0.9421,
+   0.9612,
+   0.9673,
+   null
+  ],
+  [
+   "w/o multi-head attention",
+   0.9821,
+   0.9783,
+   0.9742,
+   0.9762,
+   0.8967,
+   0.9381,
+   0.942,
+   -0.0097
+  ],
+  [
+   "w/o QELM",
+   0.9856,
+   0.9821,
+   0.9797,
+   0.9809,
+   0.9183,
+   0.9489,
+   0.9534,
+   -0.005
+  ],
+  [
+   "w/o quantum initialization",
+   0.9851,
+   0.9812,
+   0.9776,
+   0.9794,
+   0.9067,
+   0.9421,
+   0.9498,
+   -0.0065
+  ],
+  [
+   "w/o GWO",
+   0.9847,
+   0.9809,
+   0.9783,
+   0.9796,
+   0.9134,
+   0.9467,
+   0.9512,
+   -0.0063
+  ],
+  [
+   "w/o focal loss",
+   0.983,
+   0.9827,
+   0.9701,
+   0.9763,
+   0.8794,
+   0.9357,
+   0.9382,
+   -0.0096
+  ],
+  [
+   "w/o GWO and w/o focal loss",
+   0.9791,
+   0.9742,
+   0.9618,
+   0.9679,
+   0.8512,
+   0.9189,
+   0.9237,
+   -0.018
+  ],
+  [
+   "Encoder+MLP baseline",
+   0.9744,
+   0.9671,
+   0.9531,
+   0.9598,
+   0.7891,
+   0.8932,
+   0.9043,
+   -0.0261
+  ]
+ ],
+ "notes": []
+}

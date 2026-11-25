@@ -1,0 +1,19 @@
+iiot-qelm
+
+Upstream project
+  https://github.com/drmohammedadnan110-ai/Attention-QELM-GWO-IIoT-IDS, commit fc486ac5b7cadf17b0b961d68016beef5cc9376f, MIT,
+  "Copyright (c) 2026 Md Shahiduzzaman, Md Sultanul Arefin Sourav, Maria Kabtia, Md Azharul Islam, MD Mizanur Rahman, Mazharul Islam,
+  Mohammed Adnan". It was examined for provenance and comparison only. NO upstream source, configuration, schema or asset is copied into
+  this repository. If any is adopted later it must be listed here together with its licence text.
+
+Published article
+  Shahiduzzaman et al., Discover Artificial Intelligence 6:1258 (2026), doi:10.1007/s44163-026-01704-3, CC BY-NC-ND 4.0. Only numerical
+  values are transcribed (references/reported/) for comparison and auditing. No article text or figure is reproduced; all figures in this
+  repository are original drawings generated from this code or from saved run artifacts.
+
+Dataset
+  Edge-IIoTset (Ferrag et al., IEEE Dataport, doi:10.21227/mbc1-1h68), Kaggle licence CC BY-NC-SA 4.0 (non-commercial, share-alike). Not
+  redistributed; obtain it from the provider under its terms. The files under examples/ are invented fixtures, not dataset rows.
+
+Libraries
+  numpy, scipy, pandas, scikit-learn, PyTorch, matplotlib, PyYAML (BSD-style / PSF-style licences); xgboost (Apache-2.0, optional).

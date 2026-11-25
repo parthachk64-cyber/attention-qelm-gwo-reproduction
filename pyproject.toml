@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iiot-qelm"
+version = "0.1.0"
+description = "Independent companion implementation of the Attention-guided QELM + Grey Wolf Optimization rare-attack detector for IIoT (Discover AI 6:1258, 2026)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Partha Chakraborty" }]
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "pandas>=1.5",
+  "scikit-learn>=1.2",
+  "pyyaml>=6.0",
+  "matplotlib>=3.6",
+  "torch>=2.0",
+]
+
+[project.optional-dependencies]
+xgboost = ["xgboost>=1.7"]
+dev = ["pytest>=7", "pytest-cov>=4"]
+gpu = []  # install a CUDA build of torch from https://pytorch.org; no other change is needed
+
+[project.scripts]
+iiot-qelm = "iiot_qelm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+iiot_qelm = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["iiot_qelm"]
+omit = ["*/cli.py"]

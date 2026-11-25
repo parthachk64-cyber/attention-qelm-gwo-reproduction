@@ -1,0 +1,146 @@
+{
+ "source": {
+  "doi": "10.1007/s44163-026-01704-3",
+  "article": "Discover Artificial Intelligence 6:1258 (2026)",
+  "licence": "CC BY-NC-ND 4.0 (transcribed numbers only)",
+  "table": "text",
+  "page": 1
+ },
+ "label": "published_reference",
+ "columns": [
+  "id",
+  "quantity",
+  "value",
+  "where"
+ ],
+ "rows": [
+  [
+   "abstract_binary",
+   "binary accuracy / F1 / AUC",
+   [
+    0.9954,
+    0.9942,
+    0.9997
+   ],
+   "Abstract, Sec. 3.1"
+  ],
+  [
+   "abstract_multiclass",
+   "15-class accuracy / macro-P / macro-R / macro-F1 / FPR",
+   [
+    0.9894,
+    0.9871,
+    0.9848,
+    0.9859,
+    0.0079
+   ],
+   "Abstract, Sec. 3.2"
+  ],
+  [
+   "friedman_intro",
+   "Friedman chi2 stated in contribution 5",
+   54.98,
+   "Introduction, contribution 5 (page 4)"
+  ],
+  [
+   "friedman_results",
+   "Friedman chi2 stated in results",
+   50.0,
+   "Sec. 3.7 and Conclusion"
+  ],
+  [
+   "cohen_d_intro",
+   "Cohen's d range stated in contribution 5",
+   [
+    1.87,
+    14.38
+   ],
+   "Introduction, contribution 5 (page 4)"
+  ],
+  [
+   "cohen_d_table10",
+   "Cohen's d range printed in Table 10",
+   [
+    4.99,
+    66.46
+   ],
+   "Table 10"
+  ],
+  [
+   "fp_binary_proposed",
+   "approx. false alarms out of 273,592 benign flows",
+   1176,
+   "Sec. 3.1"
+  ],
+  [
+   "fp_binary_densenet",
+   "false alarms for DenseNet",
+   2408,
+   "Sec. 3.1"
+  ],
+  [
+   "fp_binary_xgboost",
+   "false alarms for XGBoost",
+   3911,
+   "Sec. 3.1"
+  ],
+  [
+   "imbalance_ratio",
+   "Normal : MITM",
+   "> 788 : 1",
+   "Sec. 2.1"
+  ],
+  [
+   "total_records",
+   "records",
+   1909671,
+   "Abstract, Sec. 2.1"
+  ],
+  [
+   "gwo_iterations",
+   "iterations to convergence (multi-class, binary)",
+   [
+    38,
+    31
+   ],
+   "Sec. 2.5.1"
+  ],
+  [
+   "gwo_budget",
+   "fitness evaluations per classification mode",
+   1000,
+   "Sec. 2.5.1 (N=20, T_max=50)"
+  ],
+  [
+   "ablation_text_deltas",
+   "macro-F1 deltas in text",
+   {
+    "attention": 0.0097,
+    "focal": 0.0096,
+    "qelm": 0.005,
+    "quantum_init": 0.0065,
+    "gwo": 0.0063,
+    "gwo_and_focal": 0.018,
+    "encoder_mlp": 0.0261
+   },
+   "Sec. 3.8"
+  ],
+  [
+   "table12_text",
+   "full model cost",
+   {
+    "params_M": 0.21,
+    "ops_M": 2.83,
+    "gpu_ms": 0.31,
+    "cpu_ms": 4.12,
+    "gpu_samples_per_s": 3226,
+    "peak_gpu_mb": 487,
+    "train_min": 67,
+    "gwo_min": 42,
+    "fit_min": 25
+   },
+   "Sec. 3.8"
+  ]
+ ],
+ "notes": []
+}

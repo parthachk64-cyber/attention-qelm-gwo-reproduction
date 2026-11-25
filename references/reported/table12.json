@@ -1,0 +1,135 @@
+{
+ "source": {
+  "doi": "10.1007/s44163-026-01704-3",
+  "article": "Discover Artificial Intelligence 6:1258 (2026)",
+  "licence": "CC BY-NC-ND 4.0 (transcribed numbers only)",
+  "table": "Table 12",
+  "page": 27
+ },
+ "label": "published_reference",
+ "columns": [
+  "model",
+  "trainable_or_solved_params",
+  "approx_ops_per_sample_M",
+  "training_time_min",
+  "gpu_ms_per_sample",
+  "cpu_ms_per_sample",
+  "gpu_samples_per_s",
+  "peak_gpu_mb"
+ ],
+ "rows": [
+  [
+   "Logistic Regression",
+   "735",
+   0.00147,
+   "3.1",
+   null,
+   0.012,
+   null,
+   null
+  ],
+  [
+   "Naive Bayes",
+   "1,470",
+   0.00294,
+   "0.8",
+   null,
+   0.018,
+   null,
+   null
+  ],
+  [
+   "Decision Tree",
+   "N/A (depth 18)",
+   0.00036,
+   "4.2",
+   null,
+   0.021,
+   null,
+   null
+  ],
+  [
+   "Random Forest (100 trees)",
+   "N/A",
+   0.036,
+   "18.7",
+   null,
+   0.412,
+   null,
+   null
+  ],
+  [
+   "XGBoost (200 trees)",
+   "N/A",
+   0.072,
+   "22.1",
+   null,
+   0.47,
+   null,
+   null
+  ],
+  [
+   "CNN-1D (3 conv blocks)",
+   "0.34 M",
+   1.21,
+   "34",
+   0.27,
+   3.84,
+   3704,
+   412
+  ],
+  [
+   "LSTM (2x128)",
+   "0.58 M",
+   2.46,
+   "52",
+   0.83,
+   12.71,
+   1205,
+   583
+  ],
+  [
+   "GRU (2x128)",
+   "0.45 M",
+   1.93,
+   "48",
+   0.71,
+   10.42,
+   1408,
+   524
+  ],
+  [
+   "BiLSTM (2x128)",
+   "1.12 M",
+   4.87,
+   "61",
+   1.47,
+   21.36,
+   680,
+   821
+  ],
+  [
+   "DenseNet-1D (4 blocks)",
+   "1.84 M",
+   6.32,
+   "58",
+   0.62,
+   8.91,
+   1613,
+   947
+  ],
+  [
+   "Proposed Attention-QELM-GWO",
+   "0.21 M",
+   2.83,
+   "67 (42 GWO + 25 training/solver)",
+   0.31,
+   4.12,
+   3226,
+   487
+  ]
+ ],
+ "notes": [
+  "'operations' vs FLOPs vs MACs is not defined in the article"
+ ]
+}
